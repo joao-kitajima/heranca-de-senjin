@@ -66,6 +66,52 @@
     max-height: 20vw;
 }
 
+#sabedoria {
+    position: relative;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 7.25vw;
+    padding-bottom: .75vh;
+}
+
+#sabedoria button {
+    background-color: #f5d4b7;
+    color: #201510;font-family: 'IM Fell English', serif;
+    font-size: 1.15rem;
+    padding: .25%;
+    position: relative;
+    border: 0;
+    border-radius: 7.5px;
+    opacity: 0.6;
+}
+
+#sabedoria button:hover {
+    box-shadow: 0 0px 7.5px 0 #eee;
+    opacity: 1;
+}
+
+#sabedoria button:active {
+    transform: translateY(4.25px);
+}
+
+#sabedoria button::after {
+    content:"";
+    position: absolute;
+    top: -2.5vh;
+    left: 7.5%;
+    width: 0;
+    height: 0;
+    border: 35px solid transparent;
+    border-bottom-color: #f5d4b7;
+    border-top: 0;
+	border-right: 0;
+    margin-left: -17.5px;
+    margin-right: -15px;
+}
+
 #principal {
     position: relative;
     left: 0;
