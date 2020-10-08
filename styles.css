@@ -1,0 +1,327 @@
+#cabecalho { 
+    position: relative;
+    left: 0;
+    right: 0;
+    z-index: 9999; 
+    display: flex;
+    flex-direction: column;  
+    padding-bottom: 3.25vh;
+}
+
+#logo-wow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo-wow img {
+    padding-top: 2.5vh;
+    padding-bottom: .5vh;
+}
+
+#cabecalho h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'IM Fell English', serif;
+    font-size: 3.5rem;
+    color: #ddd;
+    text-align: center;
+    padding-top: 2vh;
+    padding-bottom: 7.25vh;
+}
+
+#lancanegra {
+    display: flex;
+    justify-content: space-between;
+}
+
+#escudo-lancanegra {
+    max-height: 55vh;
+}
+
+#lancanegra div h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'IM Fell English', serif;
+    font-size: 1.75rem;
+    color: #eee;
+    text-decoration: underline;
+}
+
+#lancanegra div p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Germania One', cursive;
+    font-size: 1.2rem;
+    color: #fff;
+    text-align: center;
+    max-width: 45vw;
+}
+
+#troll-lancanegra {
+    max-height: 20vw;
+}
+
+#principal {
+    position: relative;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    border-top: 2.5px solid #a3aaae;
+    border-bottom: 2.5px solid #a3aaae;
+    box-shadow: 0 0 5px 0 #fff;
+}
+
+#info {
+    position: relative;
+    left: 0;
+    right: 0;
+    z-index: 9999; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding-top: 3.75vh;
+    padding-bottom: 1.25vh;
+    background-color: #141215;
+}
+
+#texto {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around;  
+    max-width: 37.5vw;
+    padding-left: 7.5vw;
+    font-family: 'Germania One', cursive;
+}
+
+#texto h2 {
+    padding-bottom: .5vh;
+    color: #ddd;
+    font-family: 'IM Fell English', serif;
+    font-size: 2.25rem;
+    text-decoration: underline;
+}
+
+#texto h3 {
+    padding-bottom: 3.75vh;
+    color: #c8b4b2;
+    font-size: 1.75rem;
+}
+
+#texto p {
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
+#imagem {
+    padding-right: 7.5vw;
+}
+
+#imagem img {
+    width: auto;
+    max-width: 40vw;
+    border-radius: 5%;
+}
+
+#imagem-invertida {
+    padding-left: 7.5vw;
+}
+
+#imagem-invertida img {
+    width: auto;
+    max-width: 40vw;
+    border-radius: 5%;
+}
+
+#texto-invertido {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around;  
+    max-width: 37.5vw;
+    padding-right: 7.5vw;
+    font-family: 'Germania One', cursive;
+}
+
+#texto-invertido h2 {
+    padding-bottom: .5vh;
+    color: #ddd;
+    font-family: 'IM Fell English', serif;
+    font-size: 2.25rem;
+    text-decoration: underline;
+}
+
+#texto-invertido h3 {
+    padding-bottom: 3.75vh;
+    color: #c8b4b2;
+    font-size: 1.75rem;
+}
+
+#texto-invertido p {
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
+#sp {
+    height: 7.75vh;
+    background-color: #141215;
+}
+
+#painel {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5vh;
+    background-color: #201510;
+    height: 72.5vh;
+    border-top: .5px solid #c8b4b2;
+}
+
+#frase h2 {
+    text-align: center;
+    font-family: 'IM Fell English', serif;
+    font-size: 2.25rem;
+    color: #eee;
+}
+
+#bloco-de-imagens {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#bloco-de-imagens a:link {
+    text-decoration: none;
+}
+
+#bloco-de-imagens a:visited {
+    text-decoration: none;
+}
+
+#bloco-de-imagens a img {
+    border-radius: 25%;
+}
+
+#bloco-de-imagens a h3 {
+    padding-top: .5vh;
+    text-align: center;
+    font-family: 'IM Fell English', serif;
+    font-size: 1.5rem;
+    color: #eee;
+}
+
+#rodape {
+    position: relative;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+}
+
+#spn {
+    height: .75vh;
+    background-color: #141215;
+}
+
+#mapa-de-navegacao {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #141215;
+}
+
+#origem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#origem img {
+    max-width: 8.75vw;
+}
+
+#origem h5 {
+    padding-top: 1.75vh;
+    padding-bottom: 10vh;
+    font-family: 'IM Fell English', serif;
+    font-size: 1.15rem;
+    color: #c8b4b2;
+}
+
+#origem h6 {
+    color: #eee;
+    font-family: 'Germania One', cursive;
+    font-size: 1.15rem;
+    text-decoration: underline;
+}
+
+#lista {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2.75vh;
+    padding-left: 4.25vw;
+    padding-right: 4.25vw;
+    padding-bottom: 2.75vh;
+}
+
+#lista h5 {
+    text-align: center;
+    font-family: 'IM Fell English', serif;
+    font-size: 1.4rem;
+    text-decoration: underline;
+    color: #c8b4b2;
+}
+
+#lista a {
+    padding-top: .4vh;
+    padding-bottom: .4vh;
+}
+
+#lista a:link {
+    text-decoration: none;
+}
+
+#lista a:visited {
+    text-decoration: none;
+}
+
+#lista a h6 {
+    color: #eee;
+    font-family: 'Germania One', cursive;
+    font-size: 1.1rem;
+}
+
+#lista a h6:hover {
+    color: #c8b4b2;
+    transition: .44s;
+}
+
+#autoria {
+    background-color: #242424;
+    border-top: 1px solid #a3aaae;
+    box-shadow: 0px 0px 3.5px #eee;
+}
+
+#autoria a:link {
+    text-decoration: none;
+}
+
+#autoria a:visited {
+    text-decoration: none;
+}
+
+#autoria a h1 {
+    padding-top: 2.15vh;
+    padding-bottom: 2.15vh;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    color: #f5d4b7;
+}
+
+#autoria a h1:hover {
+    color: #8ed5e6;
+    transition: .44s;
+}
