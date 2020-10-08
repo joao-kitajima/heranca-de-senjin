@@ -325,3 +325,9 @@
     color: #8ed5e6;
     transition: .44s;
 }
+
+@media only screen and (max-width: 1600px) {
+    #bloco-de-imagens a img {
+        max-width: 20vw;
+    }
+}
