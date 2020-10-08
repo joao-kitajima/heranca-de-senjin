@@ -376,6 +376,7 @@
     #lancanegra div {
         max-height: 50vh;
         overflow: scroll;
+        overflow-x: hidden;
     }
     
     #bloco-de-imagens a img {
