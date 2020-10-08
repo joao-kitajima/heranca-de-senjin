@@ -378,6 +378,10 @@
         overflow: scroll;
         overflow-x: hidden;
     }
+
+    #sabedoria {
+        padding-right: 3.75vw;
+    }
     
     #bloco-de-imagens a img {
         max-width: 20vw;
