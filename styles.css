@@ -176,7 +176,6 @@
     flex-direction: column;
     padding-top: 5vh;
     background-color: #201510;
-    height: 72.5vh;
     border-top: .5px solid #c8b4b2;
 }
 
@@ -189,7 +188,7 @@
 
 #bloco-de-imagens {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 #bloco-de-imagens a:link {
@@ -210,6 +209,7 @@
     font-family: 'IM Fell English', serif;
     font-size: 1.5rem;
     color: #eee;
+    padding-bottom: 3.25vh;
 }
 
 #rodape {
